@@ -1,8 +1,8 @@
 import React from "react";
 
 const Controlled = () => {
-  const [email, setEmail] = React.useState("");
-  const [password, setPassword] = React.useState("");
+  const [email, setEmail] = React.useState("email@gmail.com");
+  const [password, setPassword] = React.useState("123");
 
   const handleSubmit = (e) => {
     e.preventDefault();
