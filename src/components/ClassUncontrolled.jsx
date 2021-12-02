@@ -4,7 +4,6 @@ export default class ClassUncontrolled extends Component {
 
     constructor(){
         super()
-
         this.emailRef = createRef()
         this.passRef = createRef()
     }

@@ -6,7 +6,8 @@ const Uncontrolled = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(emailRef.current);
+    console.log(emailRef.current.value);
+    console.log(passRef.current.value);
   };
   return (
     <form className="mt-5 col-6" onSubmit={handleSubmit} autoComplete={false}>
