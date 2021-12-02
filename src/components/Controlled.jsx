@@ -9,9 +9,9 @@ const Controlled = () => {
     alert(email +  " - " + password);
   };
   return (
-    <form onSubmit={handleSubmit} autoComplete={false}>
+    <form className="mt-5 col-6" onSubmit={handleSubmit} autoComplete={false}>
       <h4>Controlled</h4>
-      <div className="mb-3 mt-5">
+      <div className="mb-3 mt-3">
         <label className="form-label">Email address</label>
         <input
           type="email"
